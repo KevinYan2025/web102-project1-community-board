@@ -3,7 +3,18 @@
   margin: 40px;
 
 }
-
+.box{
+  margin:25px;
+  width:300px;
+  height:300px;
+  background:#fff;
+  border: solid black;
+  border-color: black;
+  float:left; 
+    border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
 .websiteInfo{
   display: flex;
   flex-direction: column;
@@ -93,4 +104,8 @@
 }
 .header h1{
   font-size: 60px;
+}
+.card-section{
+  align-items: center; /* Center horizontally */
+  text-align: center;
 }
